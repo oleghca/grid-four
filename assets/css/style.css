@@ -1,0 +1,110 @@
+
+.two{
+    grid-area: two;
+}
+.three{
+    grid-area: three;
+}
+.four{
+    grid-area: four;
+}
+.five{
+    grid-area: five;
+}
+#grid{
+    width: 75vh;
+    
+    
+   
+    
+}
+.list{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 12rem 4rem;
+    grid-template-areas: "two  two  two"
+                         "three four five";
+}
+.dog{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 8.8rem 8.8rem;
+    grid-template-areas: "a b c d"
+                         "w r n k";
+}
+.two{
+    background-image: url(/assets/images/photo-fokus.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    border-radius: 0px 0px 8px 8px;
+    
+}
+.three{
+    
+    background-image: url(/assets/images/photo-fon19.jpg); 
+    background-position: top;
+    background-size: 11rem;
+    border-radius: 8px; 
+}
+.four{
+    background-image: url(/assets/images/akcesuary.jpg);
+    background-size: cover;
+    border-radius: 8px;
+}
+.five{
+    background-image: url(/assets/images/casy.jpg);
+    background-size: cover;
+    background-position: ;
+    border-radius: 8px;
+}
+.dog{
+    display: grid;
+    gap: 5px;
+}
+.card-body{
+    text-align: center;
+    
+}
+.one{
+    border-radius: 08px 8px 0px 0px;
+}
+footer{
+    text-align: center;
+     
+    
+}
+
+
+.card a{
+    grid-area:a;
+}
+.card b{
+    grid-area: b;
+}
+.card c{
+    grid-area: c;
+}
+.card d{
+    grid-area: d;
+}
+.card w{
+    grid-area: w;
+}
+.card r{
+    grid-area: r;
+}
+.card n{
+    grid-area: n;
+}
+.card k{
+    grid-area: k;
+}
+
+
+    
+    
+
+    
